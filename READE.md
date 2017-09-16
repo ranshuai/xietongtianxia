@@ -85,15 +85,16 @@ ionic cordova build android --prod
 import Backbone from 'backbone';
 import BackboneAssociations from 'backbone-associations';
 
-#aporia (难点)
-ionic 生命周期 http://www.cnblogs.com/zsl123/p/5989214.html
+##aporia (难点)
+ionic 生命周期
+ 1.http://www.cnblogs.com/zsl123/p/5989214.html
  ionViewLoaded  页面加载完毕触发。该事件发生在页面被创建成 DOM 的时候，且仅仅执行一次。如果页面被缓存（Ionic默认是缓存的）就不会再次触发该事件。该事件中可以放置初始化页面的一些事件
-ionViewWillEnter 	即将进入一个页面变成当前激活页面的时候执行的事件。
-ionViewDidEnter 进入了一个页面且变成了当前的激活页面，该事件不管是第一次进入还是缓存后进入都将执行
-ionViewWillLeave 将要离开了该页面之后变成了不是当前激活页面的时候执行的事件
-ionViewDidLeave 在页面完成了离开该页面并变成了不是当前激活页面的时候执行的事件
-ionViewWillUnload 在页面销毁和页面中有元素移除之前执行的事件
-ionViewDidUnload 在页面销毁和页面中有元素移除之后执行的事件
+ ionViewWillEnter 即将进入一个页面变成当前激活页面的时候执行的事件。
+ ionViewDidEnter 进入了一个页面且变成了当前的激活页面，该事件不管是第一次进入还是缓存后进入都将执行
+ ionViewWillLeave 将要离开了该页面之后变成了不是当前激活页面的时候执行的事件
+ ionViewDidLeave 在页面完成了离开该页面并变成了不是当前激活页面的时候执行的事件
+ ionViewWillUnload 在页面销毁和页面中有元素移除之前执行的事件
+ ionViewDidUnload 在页面销毁和页面中有元素移除之后执行的事件
 
 # FAQ
 
