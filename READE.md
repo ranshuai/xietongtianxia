@@ -81,11 +81,11 @@ ionic cordova build android --prod
       org:'https://d.o.snsall.com/'  //'http://192.168.1.24:8502/'
     }
 
-#Backbone plugin
-import Backbone from 'backbone';
-import BackboneAssociations from 'backbone-associations';
+# Backbone plugin
+import Backbone from 'backbone'
+import BackboneAssociations from 'backbone-associations'
 
-##aporia (难点)
+## aporia (难点)
 ionic 生命周期
  1.http://www.cnblogs.com/zsl123/p/5989214.html
  ionViewLoaded  页面加载完毕触发。该事件发生在页面被创建成 DOM 的时候，且仅仅执行一次。如果页面被缓存（Ionic默认是缓存的）就不会再次触发该事件。该事件中可以放置初始化页面的一些事件
